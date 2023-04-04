@@ -10,6 +10,7 @@ import random
 import numpy as np
 import yaml
 
+# 可以改成自己的yaml路径
 cfg_path = './cfg/test.yaml'
 
 if __name__ == '__main__':
