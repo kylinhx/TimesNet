@@ -5,7 +5,7 @@
 
 ### 论文结果
 
-![](example\result.PNG)
+![](./example/result.PNG)
 
 **在长时、短时预测、缺失值填补、异常检测、分类五大任务上实现了全面领先**
 
@@ -26,12 +26,12 @@
 
 损失函数
 
-![](example\train_loss.PNG)
+![](./example/train_loss.PNG)
 
 
 预测结果
 
-![](example\0.PNG)
+![](./example/pre_result.png)
 
 long_term_forecast_test_TimesNet_custom_ftM_sl96_ll48_pl96_dm32_nh8_el2_dl1_df32_fc3_ebtimeF_dtTrue_test_0  
 mse:1.3909492492675781, mae:0.7284500598907471
