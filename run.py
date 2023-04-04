@@ -19,7 +19,7 @@ if __name__ == '__main__':
     torch.manual_seed(fix_seed)
     np.random.seed(fix_seed)
 
-    f = open('./cfg/test.yaml', encoding='utf-8')
+    f = open(cfg_path, encoding='utf-8')
     data = yaml.load(f.read(), Loader=yaml.FullLoader)
     f.close()
 
@@ -116,9 +116,6 @@ if __name__ == '__main__':
         device_ids = args.devices.split(',')
         args.device_ids = [int(id_) for id_ in device_ids]
         args.gpu = args.device_ids[0]
-
-    print('Args in experiment:')
-    print(args)
 
     if args.task_name == 'long_term_forecast':
         Exp = Exp_Long_Term_Forecast
