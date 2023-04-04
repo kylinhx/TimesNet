@@ -31,7 +31,7 @@
 
 预测结果
 
-![](./example/0.PNG)
+![](./example/0.png)
 
 long_term_forecast_test_TimesNet_custom_ftM_sl96_ll48_pl96_dm32_nh8_el2_dl1_df32_fc3_ebtimeF_dtTrue_test_0  
 mse:1.3909492492675781, mae:0.7284500598907471
